@@ -3,7 +3,7 @@ var OAUTH_PROXY_URL = {
 }[window.location.hostname] || 'https://auth-server.herokuapp.com/proxy';
 
 hello.init({ 	
-	github: a741c13af9e8cb773389
+	github: 'a741c13af9e8cb773389'
 }, { redirect_uri: 'https://vcarrera.github.io/oauth/rediret.html',
      oauth_proxy : OAUTH_PROXY_URL  });
 
