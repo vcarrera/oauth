@@ -1,0 +1,9 @@
+hello.init({ 	
+	github: a741c13af9e8cb773389
+}, { redirect_uri: 'https://vcarrera.github.io/oauth/rediret.html' });
+
+$(document).ready(hello( 'github' ).login().then( function(){
+	alert('You are signed in to github');
+}, function( e ){
+	alert('Signin error: ' + e.error.message);
+}));
